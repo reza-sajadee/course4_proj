@@ -8,13 +8,9 @@
     <title>Repositories</title>
 </head>
 <body>
-<h2>{{ github_user.name }} has access to:</h2>
+<h2> has access to:</h2>
 <ul>
-    {% for repository in github_user.get_repos %}
-        <li>{{ repository.name }}</li>
-    {% empty %}
-        <li>No repositories.</li>
-    {% endfor %}
+   
 </ul>
 </body>
 </html>
